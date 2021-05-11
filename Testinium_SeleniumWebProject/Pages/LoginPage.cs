@@ -11,6 +11,7 @@ namespace Testinium_SeleniumWebProject.Pages
 {
     public class LoginPage
     {
+        [Obsolete]
         public LoginPage()
         {
             PageFactory.InitElements(BaseCollection.webDriver, this);
